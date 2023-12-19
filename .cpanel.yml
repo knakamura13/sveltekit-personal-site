@@ -1,6 +1,5 @@
 deployment:
   tasks:
-    - /bin/cp -R ~/repo/* /home/kyleomsd/sveltekit-website
     - cd /home/kyleomsd/sveltekit-website
     - npm install
     - npm run build
