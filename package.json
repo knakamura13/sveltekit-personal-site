@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"start": "vite dev",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -34,5 +35,8 @@
 		"vite": "^4.2.0",
 		"vitest": "^0.25.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"esbuild-wasm": "^0.19.10"
+	}
 }
